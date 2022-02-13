@@ -9,3 +9,35 @@
 <p align="center">
     <img src="https://user-images.githubusercontent.com/3608047/153760458-9b54984c-861e-42f1-ac95-9f6efecf54e8.png"> 
 </p>
+
+<p>
+    Essa aplicação disponibiliza dois serviços RESTFul:
+    <ol>
+        <li> 
+            Cadastrar novo usuário comum, que pode ser feita atravez do payload:
+            {
+                "nome_completo": "Fulano",
+                "email": "meuemail@exemplpe.com",
+                "senha" : 1234,
+                "cpf": "000.000.000.00"
+            }
+        </li>
+        <li>
+            Cadastrar novo usuário lojista, que pode ser feita atravez do payload:
+            {
+                "nome_completo": "Victor",
+                "email": "ictor1@ggmail.com",
+                "senha" : 1234,
+                "cnpj": "000.000.000.00"
+            }
+        </li>
+        <li>
+            Efetuar transação financeiras, que pode ser feita atravez do payload:
+            {
+                "value" : 100.00,
+                "payer_id" : 2,
+                "payee_id" : 1
+            }
+        </li>
+    </ol>    
+</p>
