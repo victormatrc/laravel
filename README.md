@@ -11,7 +11,7 @@
 </p>
 
 <p>
-    Essa aplicação disponibiliza dois serviços RESTFul:
+    Essa aplicação disponibiliza três serviços RESTFul:
     <ol>
         <li> 
             Cadastrar novo usuário comum, que pode ser feita atravez do payload:
