@@ -25,10 +25,10 @@
         <li>
             Cadastrar novo usuário lojista, que pode ser feita atravez do payload:
             {
-                "nome_completo": "Victor",
-                "email": "ictor1@ggmail.com",
+                "nome_completo": "Fulano",
+                "email": "meuemail@exemplpe.com",
                 "senha" : 1234,
-                "cnpj": "000.000.000.00"
+                "cnpj": "00.000.000/0000-00"
             }
         </li>
         <li>
