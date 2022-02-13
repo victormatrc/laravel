@@ -9,7 +9,13 @@
 <p align="center">
     <img src="https://user-images.githubusercontent.com/3608047/153760458-9b54984c-861e-42f1-ac95-9f6efecf54e8.png"> 
 </p>
-
+<p>
+    Para rodar a aplicação é necessário criar o arquivo .env e depois rodar o comando
+    php artisan migrate para gerar o banco de dados.
+</p>
+<p>
+    Comando para rodar os testes automatizados: php artisan test
+</p>
 <p>
     Essa aplicação disponibiliza três serviços RESTFul:
     <ol>
